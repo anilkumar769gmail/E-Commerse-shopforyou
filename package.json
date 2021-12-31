@@ -1,0 +1,21 @@
+{
+  "name": "shopforyou",
+  "version": "1.0.0",
+  "description": "full ecommerse using mern",
+  "main": "server.js",
+  "scripts": {
+    "start": "node BackendExpress/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT & nodemon BackendExpress/server",
+    "prod": "SET NODE_ENV=PRODECTION & nodemon BackendExpress/server"
+  },
+  "author": "Anil Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
