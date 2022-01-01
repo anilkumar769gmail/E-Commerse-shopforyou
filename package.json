@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node BackendExpress/server.js",
     "dev": "SET NODE_ENV=DEVELOPMENT & nodemon BackendExpress/server",
-    "prod": "SET NODE_ENV=PRODECTION & nodemon BackendExpress/server"
+    "prod": "SET NODE_ENV=PRODECTION & nodemon BackendExpress/server",
+    "seeder": "node BackendExpress/utils/seeder.js"
   },
   "author": "Anil Kumar",
   "license": "ISC",

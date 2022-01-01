@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const connectDatbase =() => {
+const connectDatabase =() => {
  mongoose.connect(process.env.DB_LOCAL_URI,{
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -10,4 +10,4 @@ const connectDatbase =() => {
 }
 
 
-module.exports = connectDatbase;
+module.exports = connectDatabase;
